@@ -1,0 +1,47 @@
+body{
+    background-image: url('amazone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 50px;
+    width: 80%;
+    margin: 0px auto;
+    margin-left: 300x;
+}
+.logo ul{
+    padding: 0px;
+}
+header .logo ul li{
+    float: left;
+    background-color: white;
+    color:black;
+    height: 60px;
+    width: 250px;
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+    font-size: x-large;
+    opacity: 7;
+    cursor: pointer;
+}
+.logo ul li ul{
+    position: absolute;
+    display: none;
+}
+.logo  ul li:hover >ul{
+    position: relative;
+    display: block;
+}
+.logo  ul li:hover{
+    background-color: aqua;
+    opacity: 7;
+}
+.logo ul li ul li {
+    position: relative;
+}
+.logo ul li ul li ul{
+    position: absolute;
+    left: 250px;
+    bottom: 60px;
+}
